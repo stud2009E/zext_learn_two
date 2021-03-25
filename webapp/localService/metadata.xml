@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData" Version="1.0">
    <edmx:DataServices m:DataServiceVersion="2.0">
-      <Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="CUSTOM_DATA_SRV" xml:lang="ru" sap:schema-version="1">
+      <Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="ZEXT_LRN_TWO" xml:lang="ru" sap:schema-version="1">
          <EntityType Name="TestDataType" sap:label="test types" sap:content-version="1">
             <Key>
                <PropertyRef Name="Guid" />
@@ -16,8 +16,8 @@
             <Property Name="Time" Type="Edm.Time" MaxLength="10" Nullable="false" sap:label="Time"/>
             <Property Name="Byte" Type="Edm.Byte" MaxLength="10" Nullable="false" sap:label="Byte"/>
          </EntityType>
-         <EntityContainer Name="CUSTOM_DATA_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
-            <EntitySet Name="TestDataSet" EntityType="CUSTOM_DATA_SRV.TestDataType" sap:content-version="1" />
+         <EntityContainer Name="ZEXT_LRN_TWO_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+            <EntitySet Name="TestDataSet" EntityType="ZEXT_LRN_TWO.TestDataType" sap:content-version="1" />
          </EntityContainer>
       </Schema>
    </edmx:DataServices>

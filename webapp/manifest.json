@@ -11,7 +11,7 @@
 		},
 		"dataSources": {
 			"mainService": {
-				"uri": "/sap/opu/odata/sap/CUSTOM_DATA_SRV/",
+				"uri": "/sap/opu/odata/sap/ZEXT_LRN_TWO/",
 				"type": "OData",
 				"settings": {
 					"odataVersion": "2.0",
