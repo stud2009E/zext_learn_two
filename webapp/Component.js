@@ -11,9 +11,28 @@ sap.ui.define([
 			manifest : "json",
 
 			customizing:{
+				"_sap.ui.viewExtensions": {
+					"z.ext.lrn.view.Main":{
+						"extPointBeforeTable": {
+							className: "sap.ui.core.Fragment",
+							fragmentName: "z.ext.lrn.two.fragment.BeforeTableExt",
+							type: "XML",
+							id: "stableBeforeId"
+						},
+						"extPointAfterTable": {
+							className: "sap.ui.core.Fragment",
+							fragmentName: "z.ext.lrn.two.fragment.AfterTableExt",
+							type: "XML",
+							id: "stableAfterId"
+						}
+					}
+				},
 				"sap.ui.viewModifications":{
 					"z.ext.lrn.view.Main": {
 						"smtTable":{
+							"visible": true
+						},
+						"myButton":{
 							"visible": true
 						}
 					}

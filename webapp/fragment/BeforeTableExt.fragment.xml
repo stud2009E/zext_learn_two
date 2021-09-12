@@ -1,0 +1,7 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns:m="sap.m">
+
+	<m:Title text="BEFORE Table EXTENSION"/>
+
+</core:FragmentDefinition>
